@@ -1,0 +1,156 @@
+<head>
+ 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<link href="//fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+ 
+<script src="https://static.tumblr.com/2pnwama/DLppehqvd/feathericons.js"></script>
+ 
+<!-------MUSIC PLAYER BY GLENTHEMES------->
+<script src="https://dl.dropbox.com/s/vyffmps0ly6ikf4/glenplayer06.js"></script>
+<style type="text/css">
+/*-------MUSIC PLAYER BY GLENTHEMES-------*/
+
+:root {
+   --Music-Player-Vinyl:#000;
+   --Vinyl-Icon-Size:17px;
+   --Vinyl-Spin-Speed:3.5s;
+   --Music-Controls:#000;
+   --Music-Controls-Size:12px;
+   --Music-Title-Font-Size:11px;
+   --Music-Title-Color:#000;
+}
+.glenjams-06 {
+   display:none;
+   position:fixed;
+   bottom:0;margin-bottom:30px;
+   left:0;margin-left:30px;
+   z-index:99;
+}
+ 
+.pasta {
+   display:flex;
+   align-items:center;
+}
+ 
+.vinyl-spin {
+   animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+   -webkit-animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+   -moz-animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+   -o-animation:recordspin var(--Vinyl-Spin-Speed) linear infinite;
+}
+ 
+.vinyl-pause {
+   animation-play-state:paused;
+   -webkit-animation-play-state:paused;
+   -moz-animation-play-state:paused;
+   -o-animation-play-state:paused;
+}
+ 
+@-webkit-keyframes recordspin {
+   from {
+       -webkit-transform:rotate(0deg);
+       -o-transform:rotate(0deg);
+       transform:rotate(0deg);
+   }
+   to {
+       -webkit-transform:rotate(360deg);
+       -o-transform:rotate(360deg);
+       transform:rotate(360deg);
+   }
+}
+ 
+@keyframes recordspin {
+   from {
+       -ms-transform:rotate(0deg);
+       -moz-transform:rotate(0deg);
+       -webkit-transform:rotate(0deg);
+       -o-transform:rotate(0deg);
+       transform:rotate(0deg);
+   }
+   to {
+       -ms-transform:rotate(360deg);
+       -moz-transform:rotate(360deg);
+       -webkit-transform:rotate(360deg);
+       -o-transform:rotate(360deg);
+       transform:rotate(360deg);
+   }
+}
+ 
+.vinyl, .vinyl svg {
+   width:var(--Vinyl-Icon-Size);
+   height:var(--Vinyl-Icon-Size);
+}
+ 
+.music-controls {
+   margin-left:10px;
+   width:var(--Music-Controls-Size);
+   overflow:hidden;
+   cursor:pointer;
+}
+ 
+.music-controls svg {
+   width:var(--Music-Controls-Size);
+   height:var(--Music-Controls-Size);
+   color:var(--Music-Controls);
+   stroke-width:1.5px;
+}
+ 
+.pausee {display:none;}
+ 
+.beff {display:none;}
+.aff {display:block;}
+ 
+.music-title {
+   margin-left:8px;
+   font-family:work sans;
+   font-size:var(--Music-Title-Font-Size);
+   color:var(--Music-Title-Color);
+}
+</style>
+<body>
+<!-------MUSIC PLAYER BY GLENTHEMES------->
+<div class="glenjams-06">
+<div class="pasta">
+   <div class="vinyl"></div>
+   <div class="music-controls">
+       <div class="playy"><i data-feather="play"></i></div>
+       <div class="pausee"><i data-feather="pause"></i></div>
+   </div>
+   <div class="music-title">Lover - Taylor Swift</div>
+   <audio id="audio" src="Taylor Swift - Lover - LatinHype.mp3" type="audio"></audio>
+</div><!--pasta-->
+</div><!--glenjams-06-->
+<!----end music player---->
+<script>feather.replace()</script>
+    <meta charset="UTF-8" />
+    <title>For Akin,</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cantarell:italic|Droid+Serif:bold"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="for aki 2.css" />
+<!-- tiktok meowish -->
+    <div class="envlope-wrapper">
+      <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter">
+          <div class="words line1">To: Akin</div>
+          <div class="words line2">Aki, for the past 142 days, I’ve truly enjoyed your company. Every moment we’ve shared, big or small, has meant so much to me. You’ve become my comfort, my safe place, and the person I look forward to every single day. I want to choose you, love you with intention, and grow with you through whatever life brings. Just like in Lover—can I go where you go? Can we always be this close, forever and ever? I want to make memories with you and build something that feels like home. I want to be your lover, aki. <b>So baby, will you officially be my girlfriend? 💙</b></div>
+        </div>
+        <div class="hearts">
+          <div class="heart a1"></div>
+          <div class="heart a2"></div>
+          <div class="heart a3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="reset">
+      <button id="open">Open</button>
+      <button id="reset">Close</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="for aki 2.js"></script>
+</body>
